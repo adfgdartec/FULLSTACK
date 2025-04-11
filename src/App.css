@@ -1,0 +1,140 @@
+*{
+  margin: 0px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Open+Sans:ital,wght@0,700;1,700&family=Oswald:wght@500&family=Playwrite+NG+Modern&display=swap');
+
+.background-darkBlue {
+  background: darkblue;
+}
+.text-container {
+  max-width: 95%;
+}
+body {
+  font-family: "DM Sans", sans-serif;
+}
+
+.HeaderWrap .top-part {
+  padding: 10px 0px;
+
+}
+.HeaderWrap .top-part p {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 800;
+}
+.HeaderWrap .web-header {
+  width: 100%;
+  height: auto;
+  padding: 15px 0px;
+}
+.logoWrap img {
+  width: 100%;
+
+}
+
+.HeaderWrap .web-header .part2 .Dropdown-Country{
+  width: 150px;
+  height: 80px;
+  min-width: 150px;
+  border: 1px solid rgba(0,0,0,0.20);
+  border-radius: 14px;
+  text-align: left;
+  justify-content: flex-start !important;
+}
+.HeaderWrap .web-header .part2 .Dropdown-Country .label{
+  font-size: 12px !important;
+  text-transform: capitalize !important;
+  color: rgba(0,0,0,0.7) !important;
+  line-height: 16px !important;
+
+}
+.HeaderWrap .web-header .part2 .Dropdown-Country .name{
+  font-size: 14px !important;
+  text-transform: capitalize !important;
+  color: rgba(0,0,255,0.7) !important;
+  font-weight: 800;
+  line-height: 16px !important;
+}
+.HeaderWrap .web-header .part2 .Dropdown-Country span.ml-auto svg {
+  opacity: 0.7;
+}
+.web-header .HeaderSearchBar {
+  width: 55%;
+  height: 50px;
+  background: lightblue;
+  padding: 10px;
+  position: relative;
+  border: 1px solid rgba(0,0,0,0.1) !important;
+  border-radius: 7px !important;
+  padding: 5px 5px !important;
+}
+.web-header .HeaderSearchBar input{
+  background: transparent !important;
+  outline: none;
+  font-size: 14px;
+  color: rgba(0,0,0,0.7);
+  width: 100%;
+  height: 40px;
+  border: 0px !important;
+  padding: 0px 25px !important;
+}
+.web-header .HeaderSearchBar button {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  z-index: 100;
+  min-width: 40px !important;
+  min-height: 30px !important;
+  width: 40px;
+  border-radius: 50% !important;
+  color: #000;
+}
+.web-header .HeaderSearchBar button svg {
+  font-size: 18px;
+}
+.web-header .part3 .circle {
+  align-items: center;
+  justify-content: center;
+  min-width: 40px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50% !important;
+  border: 1px solid rgba(0,0,0,0.1);
+  color: #000;
+}
+.web-header .part3 .circle svg {
+  font-size: 20px;
+}
+.TabCart .price {
+  font-size: 16px;
+  font-weight: 800;
+}
+.TabCart button {
+  background: white;
+}
+.TabCart .count {
+  background: red;
+  border-radius: 50%;
+  position: absolute;
+  top: -6px;
+  right: -4px;
+  width: 25px;
+  height: 25px;
+  color: white;
+}
+nav .allCategoriesTab {
+  background: lightskyblue;
+  padding: 4px 10px;
+
+  border-radius: 30px;
+}
+nav .allCategoriesTab * {
+  color: white;
+}
+nav .allCategoriesTab:hover {
+  background: lightskyblue;
+}
+
+
+
