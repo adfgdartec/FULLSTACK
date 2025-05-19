@@ -138,15 +138,26 @@ nav .allCategoriesTab:hover {
 nav .navbarPart2 ul {
   margin-bottom: 0px;
 }
-nav .navbarPart2 li a {
+nav .navbarPart2 ul li a {
   font-size: 16px;
   font-weight: 700;
   text-decoration: none !important;
   color: rgba(0,0,0,0.7);
   text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  padding: 8px 13px;
+  transition: all 0.2s ease-in-out;
+  border-radius: 25px;
   
 }
-
+nav .navbarPart2 ul li a svg {
+  font-size: 20px;
+}
+nav .navbarPart2 ul li a:hover {
+  background-color: #f0faff;
+  color: #2bbef9;
+}
 
 
 
